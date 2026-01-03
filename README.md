@@ -21,26 +21,31 @@ tests/
 ## Usage
 
 ### Run all tests
+
 ```bash
 deno task test
 ```
 
 ### Run tests in watch mode
+
 ```bash
 deno task test:watch
 ```
 
 ### Check code formatting
+
 ```bash
 deno task fmt:check
 ```
 
 ### Format code
+
 ```bash
 deno task fmt
 ```
 
 ### Lint code
+
 ```bash
 deno task lint
 ```
