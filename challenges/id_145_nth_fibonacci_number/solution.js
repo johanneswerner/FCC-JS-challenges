@@ -3,7 +3,7 @@
  * @param {number} n - The position in the Fibonacci sequence
  * @returns {number} The nth Fibonacci number
  */
-export function fibonacci(n) {
+export function nthFibonacci(n) {
   if (n <= 0) return 0;
   if (n === 1) return 1;
 
