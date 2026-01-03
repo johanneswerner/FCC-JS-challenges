@@ -7,16 +7,16 @@ export function findLeftHandedSeats(table) {
   let result = 0;
   table[0].reverse();
 
-  for (let sublist of table) {
+  table.forEach((sublist) => {
     if (sublist[0] === "U") {
       result += 1;
     }
-    for (let i = 0; i < sublist.length - 1; i++) {
-      if (sublist[i] !== "R" && sublist[i + 1] === "U") {
+    sublist.forEach((seat, i) => {
+      if (i < sublist.length - 1 && seat !== "R" && sublist[i + 1] === "U") {
         result += 1;
       }
-    }
-  }
+    });
+  });
 
   return result;
 }
