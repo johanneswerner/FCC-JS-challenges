@@ -1,5 +1,5 @@
 /**
- *Determine whether a year is a leap year
+ * Determine whether a year is a leap year
  * @param {number} year - The year to check
  * @returns {boolean} a boolean indicating whether the year is a leap year
  */
